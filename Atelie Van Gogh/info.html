@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Atelie Van Gogh</title>
+	<link rel="stylesheet" href="_css/formatacoes.css"/>
+	<link rel="stylesheet" href="_css/info.css"/>
+	
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+
+<body>
+<div id="interface">
+	<header id="cabecalho">
+	
+	<hgroup>
+	<h1>Atelie Van Gogh</h1>
+	<h3>Onde você aprende praticando</h3>
+	</hgroup>
+	
+	<img id="icone" src="_figuras/info.png"/>
+
+	<nav id="menu">	
+	<h1>Menu Principal</h1>
+	<ul>
+		<li onmouseover="mudaFoto('_figuras/home.png')" onmouseout="mudaFoto('_figuras/info.png')"><a href="paginaArte.html">Home</a></li>
+		<li onmouseover="mudaFoto('_figuras/info.png')" onmouseout="mudaFoto(_figuras/info.png)"><a href="atelie.html">Informações</a></li>
+		<li onmouseover="mudaFoto('_figuras/foto.png')" onmouseout="mudaFoto('_figuras/info.png')"><a href="fotos.html">Fotos</a></li>
+		<li onmouseover="mudaFoto('_figuras/videos.png')" onmouseout="mudaFoto('_figuras/info.png')"><a href="videos.html">Multimídia</a></li>
+		<li onmouseover="mudaFoto('_figuras/contato.png')" onmouseout="mudaFoto('_figuras/info.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+	</ul>
+	</nav>
+	</header>
+	
+
+<article id="noticia-principal">
+<header id="cabecalho-artigo">
+<hgroup>
+<h1>Infomações</h1>
+<h3>Raio-x sobre o Atêlie</h3>
+<h2>por Eliandro Rodrigues</h2>
+<h3 class="direita">Atualizado em 24 de Outubro de 2017</h3>
+</header>
+</article>
+
+<p>Clique em qualquer área destacada da imagem para ter mais informações sobre o Atelie Van Gogh. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+<section id="conteudo">
+	<img src="_figuras/atelie-esquema-marcado.jpg" usemap="#meumapa">
+	<map name="meumapa">
+		<area shape="rect" coords="300,182,343,255" href="atelie.html#biscuit" target="janela"/>
+		<area shape="rect" coords="5,262,193,370" href="atelie.html#restauracao" target="janela"/>
+		<area shape="rect" coords="47,13,182,131" href="atelie.html#quadro" target="janela"/>
+	</map>
+	<iframe src="atelie.html" name="janela" id="frame-spec" scrolling="no"></iframe>
+</section>
+	
+	<footer id="rodape">
+<p>Copyright&copy; 2017 by - Eliandro Rodrigues</br>
+<a href="http://facebook.com" target="_blank">Facebook</a> | 
+<a href="http://instagram.com" target="_blank">Instagram</a></p>
+</footer>	
+</div>
+</body>
+</html>
